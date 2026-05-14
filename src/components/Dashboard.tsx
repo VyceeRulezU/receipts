@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { Expense, FilterPeriod } from '../types';
 import { filterByPeriod, getCategoryTotals, getDailyTotals, getPeriodTotal, formatCurrency } from '../utils/filterUtils';
 import { CategoryDonut } from './CategoryDonut';

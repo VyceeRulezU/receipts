@@ -1,4 +1,3 @@
-import React from 'react';
 import { useExpenses } from './hooks/useExpenses';
 import { Dashboard } from './components/Dashboard';
 

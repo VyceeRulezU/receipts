@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Category } from '../types';
 import { Plus } from 'lucide-react';
 import { format } from 'date-fns';
